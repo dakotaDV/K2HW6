@@ -37,7 +37,7 @@ public class Bus extends Transport implements Сompeting {
         if(typeOfCapacity == null){
             System.out.println("Данных по авто недостаточно");
         }else {
-            System.out.println("Вместимость автобуса: от " + typeOfCapacity.getFrom() + " чел. до " + typeOfCapacity.getTo() + " до");
+            System.out.println("Вместимость автобуса: от " + typeOfCapacity.getFrom() + " чел. до " + typeOfCapacity.getTo() + " чел.");
         }
     }
 

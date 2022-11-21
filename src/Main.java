@@ -25,14 +25,19 @@ public class Main {
         sergei.start(audi);
         sergei.refuel(audi);
         sergei.stop(audi);
+        audi.printType();
         System.out.println("Водитель " + alexei.getName() + " управляет автомобилем " + vector + " и будет участвовать в заезде " );
         alexei.start(vector);
         alexei.refuel(vector);
         alexei.stop(vector);
+        vector.printType();
         System.out.println("Водитель " + vadim.getName() + " управляет автомобилем " + volvo + " и будет участвовать в заезде " );
         vadim.start(volvo);
         vadim.refuel(volvo);
         vadim.stop(volvo);
+        volvo.printType();
+
+
 
 
     }
